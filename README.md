@@ -1,6 +1,6 @@
 # 2026-ACC-Self-Driving-Car-Competition
 
-# Team Quantum Uno - Self-Driving Car Control Competition README
+# Quantum Uno ACC 2026 Submission
 
 ## Welcome to Our Esteemed Panel
 
