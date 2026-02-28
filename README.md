@@ -111,7 +111,7 @@ To execute the navigation algorithm, open multiple and run:
 ## Results
 
 Watch our simulation results on [YouTube](https://youtu.be/LntGkPBh0PA?si=91LTpXD3jFUzR42A).
----
+
 
 ## Conclusion
 
