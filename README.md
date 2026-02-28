@@ -1,5 +1,3 @@
-# 2026-ACC-Self-Driving-Car-Competition
-
 # Quantum Uno ACC 2026 Submission
 
 ## Welcome to Our Esteemed Panel
