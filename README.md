@@ -67,42 +67,40 @@ admin@username:/workspaces/isaac_ros-dev/python_dev
 
 ---
 
-## Setting Up the Development Environment
+## Setup Instructions
 
-### Installation Steps
-1. **Follow official software setup guide:**  
+1. **Start the development container. Follow official software setup guide:**  
    [ACC 2026 Software Setup Instructions](https://github.com/quanser/student-competition-resources-ros/blob/main/Virtual_ROS_Resources/Virtual_ROS_Software_Setup.md)
 
-2. **Clone the Repository and Move Files:**
+2. **Inside the Docker Container, run the following commands.**
 
    Open Terminal 1 and execute the following commands:
 
    ```bash
    git clone https://github.com/QunatumUno/QuantumUno-ACC-2026-Submission.git
-   mv ACC2026_Quanser_Student_Competition/Setup_Real_Scenario_Interleaved.py /home/$USER/Documents/ACC_Development/docker/virtual_qcar2/python/Base_Scenarios_Python/
-   rm -rf /home/$USER/Documents/ACC_Development/Development/ros2/src/*
-   mv -f QuantumUno-ACC-2026-Submission/* /home/$USER/Documents/ACC_Development/Development/python_dev
+   git clone https://github.com/ultralytics/yolov5
+
+
+   mv /workspaces/isaac_ros-dev/python_dev/QuantumUno-ACC-2026-Submission/*/ \
+      /workspaces/isaac_ros-dev/python_dev/
+
+   mv /workspaces/isaac_ros-dev/python_dev/QuantumUno-ACC-2026-Submission/* \
+      /workspaces/isaac_ros-dev/python_dev/yolov5/
+
+   pip install -r requirements.txt
+
+   pip install onnxruntime
    ```
 
-3. **Start Docker and Install Dependencies:**
-
-   Execute the following commands in Terminal 2:
-
-   ```bash
-   docker start isaac_ros_dev-x86_64-container
-   docker exec -it isaac_ros_dev-x86_64-container bash
-   cd /workspaces/isaac_ros-dev/python_dev
-   sudo apt update
-   pip3 install -r requirements.txt
-   ```
 
 ---
 
 ## Running the System
 
-To execute the navigation algorithm, open multiple and run:
+To run our navigation algorithm, run the following command from python_dev in the development container:
 ```
-
+cd yolov5
+python3 navigation.py
 ```
 
 ---
