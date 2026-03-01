@@ -106,7 +106,7 @@ python3 navigation.py
 ---
 ## Results
 
-Watch our simulation results on [YouTube](https://youtu.be/LntGkPBh0PA?si=91LTpXD3jFUzR42A).
+Watch our simulation results on [YouTube](https://www.youtube.com/watch?v=Jq6kzIZ_IxQ).
 
 
 ## Conclusion
