@@ -1,0 +1,4 @@
+# To run obeject detection, run
+
+cd /home/user/Documents/ACC_Development/Development/python_dev/yolov5
+python3 main_detetctor.py
