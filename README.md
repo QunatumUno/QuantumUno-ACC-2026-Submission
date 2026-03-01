@@ -71,14 +71,14 @@ admin@username:/workspaces/isaac_ros-dev/python_dev
 
 ### Installation Steps
 1. **Follow official software setup guide:**  
-   [ACC 2025 Software Setup Instructions](https://github.com/QunatumUno/QuantumUno-ACC-2026-Submission.git)
+   [ACC 2026 Software Setup Instructions](https://github.com/quanser/student-competition-resources-ros/blob/main/Virtual_ROS_Resources/Virtual_ROS_Software_Setup.md)
 
 2. **Clone the Repository and Move Files:**
 
    Open Terminal 1 and execute the following commands:
 
    ```bash
-   git clone https://github.com/csie-foundation/ACC2026_Quanser_Student_Competition.git
+   git clone https://github.com/QunatumUno/QuantumUno-ACC-2026-Submission.git
    mv ACC2026_Quanser_Student_Competition/Setup_Real_Scenario_Interleaved.py /home/$USER/Documents/ACC_Development/docker/virtual_qcar2/python/Base_Scenarios_Python/
    rm -rf /home/$USER/Documents/ACC_Development/Development/ros2/src/*
    mv -f QuantumUno-ACC-2026-Submission/* /home/$USER/Documents/ACC_Development/Development/python_dev
