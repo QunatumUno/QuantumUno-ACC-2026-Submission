@@ -72,7 +72,7 @@ admin@username:/workspaces/isaac_ros-dev/python_dev
 1. **Start the development container. Follow official software setup guide:**  
    [ACC 2026 Software Setup Instructions](https://github.com/quanser/student-competition-resources-ros/blob/main/Virtual_ROS_Resources/Virtual_ROS_Software_Setup.md)
 
-2. **Inside the Docker Container, run the following commands.**
+2. **Inside the Running Docker Container, run the following commands.**
 
    Open Terminal 1 and execute the following commands:
 
